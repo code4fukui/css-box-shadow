@@ -1,5 +1,5 @@
-const test = require('ava')
-const { stringify, parse } = require('./index')
+import { test } from 'https://code4fukui.github.io/ava-es/ava.js';
+import { stringify, parse } from './CSSBoxShadow.js';
 
 test('exports functions', t => {
   t.is(typeof stringify, 'function')

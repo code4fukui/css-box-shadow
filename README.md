@@ -1,14 +1,9 @@
-
 # css-box-shadow
 
 CSS box shadow parser and stringifier
 
-```sh
-npm i css-box-shadow
-```
-
 ```js
-const { parse, stringify } = require('css-box-shadow')
+import { parse, stringify } from 'https://code4fukui.github.io/css-box-shadow/CSSBoxShadow.js'
 
 // parse a CSS string value into an array of objects
 const parsed = parse('0 0 0 32px tomato')

@@ -55,10 +55,5 @@ const toNum = v => {
 }
 const toPx = n => typeof n === 'number' && n !== 0 ? (n + 'px') : n
 
-const parse = str => str.split(VALUES_REG).map(s => s.trim()).map(parseValue)
-const stringify = arr => arr.map(stringifyValue).join(', ')
-
-module.exports = {
-  parse,
-  stringify
-}
+export const parse = str => str.split(VALUES_REG).map(s => s.trim()).map(parseValue)
+export const stringify = arr => arr.map(stringifyValue).join(', ')
