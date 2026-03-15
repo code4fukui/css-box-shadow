@@ -1,5 +1,7 @@
 # css-box-shadow
 
+> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
+
 CSS box shadow parser and stringifier
 
 ## Usage
