@@ -2,6 +2,8 @@
 
 CSS box shadow parser and stringifier
 
+## Usage
+
 ```js
 import { parse, stringify } from 'https://code4fukui.github.io/css-box-shadow/CSSBoxShadow.js'
 
@@ -18,5 +20,7 @@ const parsed = parse('0 0 0 32px tomato')
 const value = stringify(parsed)
 // '0 0 0 32px tomato'
 ```
+
+## License
 
 MIT License
